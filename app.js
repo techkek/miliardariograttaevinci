@@ -1,7 +1,3 @@
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
-})
 let vittoria = 0, spesi = 0, count = 0, n, giocate = 0, vittorie = 0, sconfitte = 0, pareggio = 0;
 function firstMain(){
     reset();
